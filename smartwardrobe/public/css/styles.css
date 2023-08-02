@@ -1,0 +1,77 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+*{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.morado{
+    background-color: #8D00FC;
+}
+
+.imagen{
+    width:350px;
+}
+
+.morado-texto{
+    color: #8D00FC;
+}
+
+.alerta {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    background-color: #37c400; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 4px; 
+    
+  }
+
+  .close-btn,.alerta-mensaje{
+    font-size:25px;
+  }
+
+  .close-btn{
+    cursor:pointer;
+  }
+
+  .barra-fija{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; 
+    background-color: #8D00FC; 
+   
+    text-align: center;
+    border-top:4px solid black ;
+  }
+
+  .padding-abajo{
+    padding-bottom: 150px;
+  }
+
+  .imagen{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+  }
+
+  .icono-pequeno{
+    width:60px;
+   
+    object-fit: cover;
+  }
+
+  .icono-grande{
+    width:250px;
+   
+    object-fit: cover;
+  }
+
+  .icono{
+    color:white;
+    font-size:150px;
+  }
